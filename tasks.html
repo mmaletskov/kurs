@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Josefin+Sans&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>tasks</title>
+</head>
+<body>
+    <header class="header adaptiv">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <img src="./img/svg/logo-header.svg" alt="logo">
+                </div>
+                <nav class="nav">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">Главная</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">Инструкция</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">О приложении</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-btn"><a href="#">Вперед к победам!</a></div>
+            </div>
+        </div>
+    </header>
+
+    <header class="header__mob mobil">
+        <div class="container__mob">
+            <div class="header__mob-inner">
+                <div class="header__mob-logo">
+                    <img src="./img/svg/logo-mob.svg" alt="">
+                </div>
+                <a class="header__mob-btn" href="#"><span>Вперед к победам!</span></a>
+               
+            </div>
+            <hr class="header__mob-line">
+            <div class="header__mob-menu">
+                <ul class="mob__menu-list">
+                    <li class="mob__menu-item">
+                        <a class="mob__menu-link" href="#">Главная</a>
+                    </li>
+                    <li class="mob__menu-item">
+                        <a class="mob__menu-link" href="#">Инструкция</a>
+                    </li>
+                    <li class="mob__menu-item">
+                        <a class="mob__menu-link" href="#">О приложении</a> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="task__list">
+            <div class="container">
+                <div class="task__list-inner">
+                    <div class="task__list-head">
+                        <a href=""><img src="./img/svg/arrow-back.svg" alt=""></a>
+                        <h3 class="head__title">Peppo.do</h3>
+                        <a href=""><img src="./img/svg/user.svg" alt=""></a>
+                    </div>
+
+                    <div class="task__list-input">
+                        <input class="input__list" type="text" placeholder="Что будем делать сегодня ?">
+                        <div class="tasks__btn">
+                            <a href="" class=""><img class="task-img" src="./img/svg/categ.svg" alt=""></a>
+                            <a href="" class=""><img class="task-img" src="./img/svg/date.svg" alt=""></a>
+                            <a href="" class=""><img class="task-img" src="./img/svg/add.svg" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="category">
+                        <h3 class="category__title">Категории: </h3>
+                        <a class="category__link" href="">Личное</a>
+                        <a class="category__link" href="">Рабочее</a>
+                    </div>
+
+                    <div class="to-do-list">
+                        <h3 class="to-do-list_title">Список дел</h3>
+
+                        <div class="to-do-list_list">
+                            <div class="to-do-list_item">
+                                <div class="checkbox">
+                                    <input type="checkbox" name="" id="">
+                                    <h3 class="item-title">Принять душ</h3>
+                                </div>
+                               <div class="manage__btns">
+                                    <a href="edit.html" class="manage__btn"><img src="./img/svg/edit.svg" alt=""></a>
+                                    <a href="" class="manage__btn"><img src="./img/svg/delete.svg" alt=""></a>
+                                   
+                               </div>
+                            </div>
+                            <div class="to-do-list_item">
+                                <div class="checkbox">
+                                    <input type="checkbox" name="" id="">
+                                    <h3 class="item-title">Сделать ТЗ</h3>
+                                </div>
+                               <div class="manage__btns">
+                                    <a href="edit.html" class="manage__btn"><img src="./img/svg/edit.svg" alt=""></a>
+                                    <a href="" class="manage__btn"><img src="./img/svg/delete.svg" alt=""></a>
+                                   
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer adaptiv">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <img src="./img/svg/logo-footer.svg" alt="logo-footer">
+                </div>
+                <a class="footer__tel" href="tel:+7 (999) 111-20-20"><span>+7 (999) 111-20-20</span></a>
+                <h3 class="footer__title">design by mmaletskoff</h3>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer__mob mobil">
+        <div class="container">
+            <div class="footer__mob-inner">
+                <div class="footer__mob-logo">
+                    <img src="./img/svg/logo-footer.svg" alt="logo-footer">
+                </div>
+                <h3 class="footer__mob-title">design by mmaletskoff</h3>
+                <a class="footer__mob-tel" href="tel:+7 (999) 111-20-20"><span>+7 (999) 111-20-20</span></a>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

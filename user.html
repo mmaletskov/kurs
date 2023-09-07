@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Josefin+Sans&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>user</title>
+</head>
+<body>
+    <header class="header adaptiv">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <img src="./img/svg/logo-header.svg" alt="logo">
+                </div>
+                <nav class="nav">
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">Главная</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">Инструкция</a>
+                        </li>
+                        <li class="menu-item">
+                            <a class="menu-link" href="#">О приложении</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-btn"><a href="#">Вперед к победам!</a></div>
+            </div>
+        </div>
+    </header>
+
+    <header class="header__mob mobil">
+        <div class="container__mob">
+            <div class="header__mob-inner">
+                <div class="header__mob-logo">
+                    <img src="./img/svg/logo-mob.svg" alt="">
+                </div>
+                <a class="header__mob-btn" href="#"><span>Вперед к победам!</span></a>
+               
+            </div>
+            <hr class="header__mob-line">
+            <div class="header__mob-menu">
+                <ul class="mob__menu-list">
+                    <li class="mob__menu-item">
+                        <a class="mob__menu-link" href="#">Главная</a>
+                    </li>
+                    <li class="mob__menu-item">
+                        <a class="mob__menu-link" href="#">Инструкция</a>
+                    </li>
+                    <li class="mob__menu-item">
+                        <a class="mob__menu-link" href="#">О приложении</a> 
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main class="main">
+        <section class="user">
+            <div class="container">
+                <div class="user_back"></div>
+                <div class="user__inner">
+                    <div class="user__info">
+                        <img class="user-img" src="./img/svg/user.svg" alt="">
+
+
+                        <!-- модалка -->
+                        <div id="openModal" class="modal">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h3 class="modal-title">Название</h3>
+                                  <a href="#close" title="Close" class="close">×</a>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="" class="form__form">
+                                        <label for="">Введите новое имя</label>
+                                        <input class="edit__input" type="text">
+                                        <label for="">Введите новую почту</label>
+                                        <input class="edit__input" type="text">
+            
+                                        <input class="edit__btn" type="submit" value="Отправить">
+                                    </form>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <!-- модалка-end -->
+                        
+                    </div>
+                    <div class="user__about">
+                        <h3 class="user__name">Михаил Малецков</h3>
+                        <h3 class="user__email">maletskoff@mail.ru</h3>
+                        <div class="user-btns">
+                            <a href="#openModal" class=""><img class="edit-link" src="./img/svg/edit-user.svg" alt=""></a>
+                            <a href="" class=""><img class="exit-link" src="./img/svg/exit-user.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="user__mob mobil">
+            <div class="container__mob">
+                <div class="user__mob-inner">
+                    <h2 class="user__mob-title">Мой кабинет</h2>
+                    <img class="user__mob-img" src="./img/svg/user_avatar.svg" alt="">
+
+                    <h3 class="user__mob-name">Михаил Малецков</h3>
+                    <h3 class="user__mob-email">maletskoff@mail.ru</h3>
+
+                    <div class="user-btns_mob">
+                        <a href="#openModal-three" class=""><img class="edit-link-mob" src="./img/svg/edit-user.svg" alt=""></a>
+                        <a href="" class=""><img class="exit-link-mob" src="./img/svg/exit-user.svg" alt=""></a>
+                    </div>
+
+
+                       <!-- модалка -->
+                    <div id="openModal-three" class="modal">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h3 class="modal-title">Название</h3>
+                              <a href="#close" title="Close" class="close">×</a>
+                            </div>
+                            <div class="modal-body">
+                                <form action="" class="form__form-user">
+                                    <label for="">Введите новое имя</label>
+                                    <input class="edit__input-mob" type="text">
+                                    <label for="">Введите новую почту</label>
+                                    <input class="edit__input-mob" type="text">
+        
+                                    <input class="edit__btn-mob" type="submit" value="Отправить">
+                                </form>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <!-- модалка-end -->
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer adaptiv">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <img src="./img/svg/logo-footer.svg" alt="logo-footer">
+                </div>
+                <a class="footer__tel" href="tel:+7 (999) 111-20-20"><span>+7 (999) 111-20-20</span></a>
+                <h3 class="footer__title">design by mmaletskoff</h3>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer__mob mobil">
+        <div class="container">
+            <div class="footer__mob-inner">
+                <div class="footer__mob-logo">
+                    <img src="./img/svg/logo-footer.svg" alt="logo-footer">
+                </div>
+                <h3 class="footer__mob-title">design by mmaletskoff</h3>
+                <a class="footer__mob-tel" href="tel:+7 (999) 111-20-20"><span>+7 (999) 111-20-20</span></a>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
